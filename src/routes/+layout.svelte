@@ -3,6 +3,7 @@
 	import Preloader from '$lib/components/Preloader.svelte';
 	import WhatsAppFloat from '$lib/components/WhatsAppFloat.svelte';
 	import BackToTop from '$lib/components/BackToTop.svelte';
+	import ConsentBanner from '$lib/components/ConsentBanner.svelte';
 
 	let { children } = $props();
 </script>
@@ -17,3 +18,4 @@
 {@render children()}
 <WhatsAppFloat />
 <BackToTop />
+<ConsentBanner />
